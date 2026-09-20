@@ -1,3 +1,9 @@
+---
+name: board
+description: Show the current priority board — open work only, epics in rank order with issues in pickup order beneath. Renders a hierarchy diagram by default; `/board table` prints the raw resolver table. Use when the user asks for the board, the priority board, the state of open work, what is in progress, or what to pick up next.
+argument-hint: "[table]"
+---
+
 # /board — Priority Board Snapshot
 
 Show the current priority board: **open work only**, epics in rank order, issues
